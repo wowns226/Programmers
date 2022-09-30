@@ -10,8 +10,6 @@
  *   * 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/12909
  ***************************************************************************************/
 
-bool isFirstClose() {}
-
 using namespace std;
 bool solution(string s) {
     if (s.front() == ')' || s.back() == '(') {
